@@ -85,8 +85,8 @@ def menu():
     print(f"{color.verde}[7]MEGAMAN")
     print(f"{color.verde}[8]TANKE")
     print(f"{color.verde}[9]HELICOPTERO")
-    print(f"[0]SALIR{color.fin}")
-    eleccion =input("ELIJE UN NUMERO >> ")
+    print(f"{color.rojo}[0]SALIR{color.fin}")
+    eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
         banner()
         lobo()
