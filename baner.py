@@ -1,9 +1,4 @@
-import sys
-from sys import *
-import os 
-from os import *
-import time
-from io import *
+import os, sys, time, io
 class color:
     morado = '\033[95m'
     blanco = '\033[97m'
