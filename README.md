@@ -1,9 +1,9 @@
 # baner-termux
 
 # instalación
-pkg instalar git
+pkg install git
 
-pkg instalar python
+pkg install python
 
 git clone https://github.com/Fenrir-00/baner-termux
 
