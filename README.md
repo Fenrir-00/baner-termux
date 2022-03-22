@@ -1,5 +1,5 @@
 # baner-termux
-
+'''bash
 # instalación
 pkg instal git
 
@@ -10,3 +10,4 @@ git clone https://github.com/Fenrir-00/baner-termux
 cd baner-termux
 
 python3 baner.py
+'''
