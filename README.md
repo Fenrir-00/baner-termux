@@ -1,4 +1,4 @@
-# baner-termux
+
 ![Screenshot](baner.png)
 
 # instalación
