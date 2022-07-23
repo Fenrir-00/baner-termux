@@ -122,7 +122,7 @@ def menu():
     elif eleccion == "0" :
      banner()
      salir() 
-     elif eleccion == "99" :
+    elif eleccion == "99" :
      banner()
      fenrir()
      print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
