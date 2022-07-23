@@ -119,6 +119,70 @@ def menu():
      banner()
      helicoptero()
      print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "10" :
+     banner()
+     gengar()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "11" :
+     banner()
+     blastois()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "12" :
+     banner()
+     charizar()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "13" :
+     banner()
+     amonus()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "14" :
+     banner()
+     rex()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "15" :
+     banner()
+     monstersa()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "16" :
+     banner()
+     jurasic()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "17" :
+     banner()
+     kirby()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "18" :
+     banner()
+     moto()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "19" :
+     banner()
+     calaberallamas()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "20" :
+     banner()
+     bioazar()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "21" :
+     banner()
+     castigador()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "22" :
+     banner()
+     coche()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "23" :
+     banner()
+     anonimus()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "24" :
+     banner()
+     anonimus1()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
+    elif eleccion == "25" :
+     banner()
+     hacker()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
     elif eleccion == "0" :
      banner()
      salir() 
