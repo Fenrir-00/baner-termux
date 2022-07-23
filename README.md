@@ -3,10 +3,10 @@
 
 # instalación
 ```bash
-pkg instal git
+pkg install git
 ```
 ```bash
-pkg instal python
+pkg install python
 ```
 ```bash
 git clone https://github.com/Fenrir-00/baner-termux
