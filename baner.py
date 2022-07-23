@@ -396,7 +396,7 @@ def helicoptero():
  fd.write(f"{salto}PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '")
  fd.close() 
 
-def fernrir():
+def fenrir():
  salto = "\n"
  fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","w")
  fd.write(f"clear{salto}")
