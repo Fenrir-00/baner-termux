@@ -122,6 +122,10 @@ def menu():
     elif eleccion == "0" :
      banner()
      salir() 
+     elif eleccion == "99" :
+     banner()
+     fenrir()
+     print(f"{color.amarillo}CIERRA LA CONSOLA PARA VER LOS CAMBIOS")
   
     else:
         incorrecto()
@@ -392,7 +396,18 @@ def helicoptero():
  fd.write(f"{salto}PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '")
  fd.close() 
 
-
+def fernrir():
+ salto = "\n"
+ fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","w")
+ fd.write(f"clear{salto}")
+ fd.write("""echo -e '''███████╗███████╗███╗  ██╗██████╗ ██╗██████╗
+██╔════ ██╔════╝████╗ ██║██╔══██╗██║██╔══██╗
+█████╗  █████╗  ██╔██╗██║██████╔╝██║██████╔╝
+██╔══   ██╔══╝  ██║╚████║██╔══██╗██║██╔══██╗
+██║     ███████╗██║ ╚███║██║  ██║██║██║  ██║
+╚═╝     ╚══════╝╚═╝  ╚══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ''' |lolcat""")
+ fd.write(f"{salto}PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '")
+ fd.close() 
 
 
 
