@@ -487,6 +487,10 @@ def fenrir():
 ██║     ███████╗██║ ╚███║██║  ██║██║██║  ██║
 ╚═╝     ╚══════╝╚═╝  ╚══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ''' |lolcat""")
  fd.write(f"{salto}PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '")
+ fd.write(f"{salto}")
+ fd.write("alias actualizar='pkg update && pkg upgrade'")
+ fd.write(f"{salto}")
+ fd.write("alias usuario='cd /data/data/com.termux/files/usr/etc && ls'")
  fd.close() 
 def gengar():
  salto = "\n"
