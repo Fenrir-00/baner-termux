@@ -39,6 +39,15 @@ def version():
  | Contact me on Telegram : @Ritorito1990                |
  ========================================================= """
  lol_py(texto)
+def cabecera():
+ os.sytem("clear")
+ print (f"""{color.cyan}
+██████╗  █████╗ ███╗  ██╗███████╗██████╗ ████████╗██╗  ██╗
+██╔══██╗██╔══██╗████╗ ██║██╔════╝██╔══██╗╚══██╔══╝╚██╗██╔╝
+██████╦╝███████║██╔██╗██║█████╗  ██████╔╝   ██║    ╚███╔╝
+██╔══██╗██╔══██║██║╚████║██╔══╝  ██╔══██╗   ██║    ██╔██╗
+██████╦╝██║  ██║██║ ╚███║███████╗██║  ██║   ██║   ██╔╝╚██╗
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚══╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝""")
 
 #barra de carga
 def carga():
@@ -85,6 +94,9 @@ def menu():
     os.system("clear")
     banner()
     carga()
+    cabecera()
+    version()
+    print()
     print(f"{color.verde}    QUE BANER TE GUSTARIA PONER")
     print("")
     print(f"{color.verde}[1]LOBO")
