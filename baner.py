@@ -1,4 +1,11 @@
 import os, sys, time, io
+while True:
+ try:
+  from lolpython import lol_py
+  break
+ except ModuleNotFoundError:
+  os.system("pip install lolpython")
+
 class color:
     morado = '\033[95m'
     blanco = '\033[97m'
@@ -23,6 +30,15 @@ def banner():
 ██║     ███████╗██║ ╚███║██║  ██║██║██║  ██║
 ╚═╝     ╚══════╝╚═╝  ╚══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝""")
  print(f"{color.fin}")
+def version():
+ texto ="""
+ |=======================================================|
+ | Script by              : #FENRIR-00                   |
+ | Version                : Version  1.2                 |
+ | Follow me on Github    : https://github.com/Fenrir-00 |
+ | Contact me on Telegram : @Ritorito1990                |
+ ========================================================= """
+ lol_py(texto)
 
 #barra de carga
 def carga():
