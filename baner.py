@@ -98,33 +98,21 @@ def menu():
     version()
     print()
     print(f"{color.verde}    QUE BANER TE GUSTARIA PONER")
-    print("")
-    print(f"{color.verde}[1]LOBO")
-    print(f"{color.verde}[2]OSO")
-    print(f"{color.verde}[3]MARIO")
-    print(f"{color.verde}[4]BATMAN")
-    print(f"{color.verde}[5]MIKI")
-    print(f"{color.verde}[6]FUCK")
-    print(f"{color.verde}[7]MEGAMAN")
-    print(f"{color.verde}[8]TANKE")
-    print(f"{color.verde}[9]HELICOPTERO")
-    print(f"{color.verde}[10]GENGAR")
-    print(f"{color.verde}[11]BLASTOIS")
-    print(f"{color.verde}[12]CHARIZAR")
-    print(f"{color.verde}[13]AMON.US")
-    print(f"{color.verde}[14]REX")
-    print(f"{color.verde}[15]MONSTER.SA")
-    print(f"{color.verde}[16]JURASSIC")
-    print(f"{color.verde}[17]KIRBY")
-    print(f"{color.verde}[18]MOTO")
-    print(f"{color.verde}[19]CALABERA LLAMAS")
-    print(f"{color.verde}[20]BIOAZAR")
-    print(f"{color.verde}[21]CASTIGADOR")
-    print(f"{color.verde}[22]COCHE")
-    print(f"{color.verde}[23]ANONIMUS")
-    print(f"{color.verde}[24]ANONIMUS1")
-    print(f"{color.verde}[25]HACKER")
-    print(f"{color.rojo}[0]SALIR{color.fin}")
+    print(f"""{color.verde}
+[1]LOBO                [14]REX")
+[2]OSO                 [15]MONSTER.SA")
+[3]MARIO               [16]JURASSIC
+[4]BATMAN              [17]KIRBY
+[5]MIKI                [18]MOTO
+[6]FUCK                [19]CALABERA LLAMAS
+[7]MEGAMAN             [20]BIOAZAR
+[8]TANKE               [21]CASTIGADOR
+[9]HELICOPTERO         [22]COCHE
+[10]GENGAR             [23]ANONIMUS
+[11]BLASTOIS           [24]ANONIMUS1
+[12]CHARIZAR           [25]HACKER
+[13]AMON.US            {color.rojo}[0]SALIR{color.fin}
+""")
     eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
         banner()
