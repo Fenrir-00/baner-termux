@@ -99,8 +99,8 @@ def menu():
     print()
     print(f"{color.verde}    QUE BANER TE GUSTARIA PONER")
     print(f"""{color.verde}
-[1]LOBO                [14]REX")
-[2]OSO                 [15]MONSTER.SA")
+[1]LOBO                [14]REX
+[2]OSO                 [15]MONSTER.SA
 [3]MARIO               [16]JURASSIC
 [4]BATMAN              [17]KIRBY
 [5]MIKI                [18]MOTO
