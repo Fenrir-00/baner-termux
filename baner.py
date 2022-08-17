@@ -360,7 +360,8 @@ def lobo():
 ▒▒▒▒▒▒▒▒▒▒▐██▒▒▄████████████████████████████
 ▒▒▒▒▒▒▒▒▒▒▄▄████████████████████████████████
 ████████████████████████████████████████████''' |lolcat""")
- fd.write(f"{salto}PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '")
+ var5=PS1()
+ fd.write(f"{salto}{var5}")
  fd.close()
 def helicopter():
  salto = "\n"
@@ -965,4 +966,55 @@ def hacker():
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀''' |lolcat""")
  fd.write(f"{salto}PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '")
  fd.close()
+                                           ps1.py                                                   Modified
+def ps1():
+ banner()
+ var= "PS1= '"
+ print(f"""{color.cyan}QUIERES PONER UN NOMBRE DE USUARIO
+{color.verde}[1]SI
+{color.rojo}[0]NO""")
+ var3=int(input(f"{color.cyan}ELIJE UN NUMERO >> "))
+ if var3 == 1:
+  var1=str(input(f"{color.cyan}INTRIDUCE NUMERO DE USUARIO >> "))
+  banner()
+  print(f"{color.verde}TU NOMBRE DE  USUARIO ES: {var1}")
+  print("""QUE COLOR QUIERES PONER A TU USUARIO
+[1]NEGRO         [8]BLANCO
+[2]AZUL          [9]AZUL BRILLANTE
+[3]VERDE        [10]VERDE BRILLANTE
+[4]CIAN         [11]CIAN BRILLANTE
+[5]ROJO         [12]ROJO BRILLANTE
+[6]PURPURA      [13]PURPURA BRILLANTE
+[7]AMARILLO""")
+  var3=int(input(f"{color.cyan}ELIJE EL COLOR QUE QUIERES >> "))
+  if var3 == 1:
+   var =var+"\[\e[0;30m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
+  elif var3 == 2:
+   var =var+"\[\e[0;34m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
+  elif var3 == 3:
+   var =var+"\[\e[0;32m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 4:
+   var =var+"\[\e[0;36m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 5:
+   var =var+"\[\e[0;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 6:
+   var =var+"\[\e[0;35m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 7:
+   var =var+"\[\e[1;33m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 8:
+   var =var+"\[\e[1;37m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 9:
+   var =var+"\[\e[1;34m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 10:
+   var =var+"\[\e[1;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 11:
+   var =var+"\[\e[1;36m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 12:                                                                                                                     var =var+"\[\e[1;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+  elif var3 == 13:
+   var =var+"\[\e[1;35m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+ elif var3 == 0:
+  var1=input(str("introduce nombre de usuario"))
+  var= var + var1
 menu()
