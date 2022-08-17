@@ -960,7 +960,7 @@ def hacker():
 def ps1():
  banner()
  var= "PS1='"
- print(f"""{color.cyan}QUIERES PONER UN NOMBRE DE USUARIO
+ print(f"""{color.morado}QUIERES PONER UN NOMBRE DE USUARIO
 {color.verde}[1]SI
 {color.rojo}[0]NO""")
  var3=int(input(f"{color.cyan}ELIJE UN NUMERO >> "))
