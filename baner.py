@@ -986,26 +986,37 @@ def ps1():
    return var
   elif var3 == 3:
    var =var+"\[\e[0;32m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 4:
    var =var+"\[\e[0;36m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 5:
    var =var+"\[\e[0;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 6:
    var =var+"\[\e[0;35m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 7:
    var =var+"\[\e[1;33m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 8:
    var =var+"\[\e[1;37m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 9:
    var =var+"\[\e[1;34m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 10:
    var =var+"\[\e[1;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 11:
    var =var+"\[\e[1;36m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 12:                                                                                                                     
    var =var+"\[\e[1;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
   elif var3 == 13:
    var =var+"\[\e[1;35m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
+   return var
  elif var3 == 0:
   var1=input(str("introduce nombre de usuario"))
   var= var + var1
