@@ -969,7 +969,7 @@ def ps1():
   banner()
   print(f"""{color.morado}TU NOMBRE DE  USUARIO ES: {var1}
 """)
-  print("""QUE COLOR QUIERES PONER A TU USUARIO
+  print(f"""{color.verde}QUE COLOR QUIERES PONER A TU USUARIO
 [1]NEGRO         [8]BLANCO
 [2]AZUL          [9]AZUL BRILLANTE
 [3]VERDE        [10]VERDE BRILLANTE
