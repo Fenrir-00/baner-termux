@@ -360,18 +360,9 @@ def lobo():
 ▒▒▒▒▒▒▒▒▒▒▐██▒▒▄████████████████████████████
 ▒▒▒▒▒▒▒▒▒▒▄▄████████████████████████████████
 ████████████████████████████████████████████''' |lolcat""")
- var5=PS1()
+ var5=ps1()
  fd.write(f"{salto}{var5}")
  fd.close()
-def helicopter():
- salto = "\n"
- fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","w")
- fd.write(f"clear{salto}")
- fd.write("""echo -e '''  ''' |lolcat""")
- fd.write(f"{salto}PS1='$'")
- fd.close()
-
-
 def oso():
  salto = "\n"
  fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","w")
@@ -969,7 +960,7 @@ def hacker():
 
 def ps1():
  banner()
- var= "PS1= '"
+ var= "PS1='"
  print(f"""{color.cyan}QUIERES PONER UN NOMBRE DE USUARIO
 {color.verde}[1]SI
 {color.rojo}[0]NO""")
