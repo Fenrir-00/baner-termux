@@ -126,7 +126,6 @@ def carga():
 def menu():
     os.system("clear")
     banner()
-    carga()
     cabecera()
     version()
     print()
