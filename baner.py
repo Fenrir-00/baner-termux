@@ -967,7 +967,8 @@ def ps1():
  if var3 == 1:
   var1=str(input(f"{color.cyan}INTRIDUCE NUMERO DE USUARIO >> "))
   banner()
-  print(f"{color.verde}TU NOMBRE DE  USUARIO ES: {var1}")
+  print(f"""{color.morado}TU NOMBRE DE  USUARIO ES: {var1}
+""")
   print("""QUE COLOR QUIERES PONER A TU USUARIO
 [1]NEGRO         [8]BLANCO
 [2]AZUL          [9]AZUL BRILLANTE
