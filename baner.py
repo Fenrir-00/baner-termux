@@ -1042,8 +1042,11 @@ def ps1():
   elif var3 == 13:
    var =var+"\[\e[1;35m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
    return var
+  else:
+   menu()
  elif var3 == 0:
-  var1=input(str("introduce nombre de usuario"))
   var= var+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
   return var
+ else:
+  menu()
 menu()
