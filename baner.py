@@ -283,7 +283,7 @@ def incorrecto():
 ███████╗╚█████╔╝░░░██║░░░██║░░██║
 ╚══════╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝{color.fin}""")
     time.sleep(4)
-    menu()
+    exit()
 
 def salir():
     os.system("clear")
