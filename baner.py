@@ -980,16 +980,20 @@ def hacker():
  var5=ps1()
  fd.write(f"{salto}{var5}")
  fd.close()
-
 def ps1():
  banner()
  var= "PS1='"
  print(f"""{color.morado}QUIERES PONER UN NOMBRE DE USUARIO
 {color.verde}[1]SI
 {color.rojo}[0]NO""")
- var3=int(input(f"{color.cyan}ELIJE UN NUMERO >> "))
+ var3=7
+ while var3 != 1 and var3 !=0:
+  try:
+   var3=int(input(f"{color.cyan}ELIJE UN NUMERO >> "))
+  except:
+   print(f"{color.rojo}INTRODUCE UN NUMERO VALIDO")
  if var3 == 1:
-  var1=str(input(f"{color.cyan}INTRIDUCE NUMERO DE USUARIO >> "))
+  var1=str(input(f"{color.cyan}INTRIDUCE NOMBRE DE USUARIO >> "))
   banner()
   print(f"""{color.morado}TU NOMBRE DE  USUARIO ES: {var1}
 """)
@@ -1002,7 +1006,12 @@ def ps1():
 [5]ROJO         [12]ROJO BRILLANTE
 [6]PURPURA      [13]PURPURA BRILLANTE
 [7]AMARILLO""")
-  var3=int(input(f"{color.cyan}ELIJE EL COLOR QUE QUIERES >> "))
+  var3 =99
+  while var3 not in (1,2,3,4,5,6,7,8,9,10,11,12,13):
+   try:
+    var3=int(input(f"{color.cyan}ELIJE EL COLOR QUE QUIERES >> "))
+   except:
+    print(f"{color.rojo}INTRODUCE UN NUMERO VALIDO")
   if var3 == 1:
    var =var+"\[\e[0;30m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
    return var
@@ -1036,7 +1045,7 @@ def ps1():
   elif var3 == 11:
    var =var+"\[\e[1;36m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
    return var
-  elif var3 == 12:                                                                                                                     
+  elif var3 == 12:
    var =var+"\[\e[1;31m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
    return var
   elif var3 == 13:
