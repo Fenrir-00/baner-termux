@@ -1043,10 +1043,10 @@ def ps1():
    var =var+"\[\e[1;35m\]"+var1+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
    return var
   else:
-   menu()
+   incorrecto()
  elif var3 == 0:
   var= var+"\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '"
   return var
  else:
-  menu()
+  incorrecto()
 menu()
