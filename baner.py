@@ -359,6 +359,8 @@ def lobo():
 ▒▒▒▒▒▒▒▒▒▒▐██▒▒▄████████████████████████████
 ▒▒▒▒▒▒▒▒▒▒▄▄████████████████████████████████
 ████████████████████████████████████████████''' |lolcat""")
+ fd.close()
+ fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","w")
  var5=ps1()
  fd.write(f"{salto}{var5}")
  fd.close()
