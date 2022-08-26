@@ -540,7 +540,7 @@ def fenrir():
  fd.write(f"{salto}")
  fd.write("alias usuario='cd /data/data/com.termux/files/usr/etc && ls'")
  fd.write(f"{salto}")
- fd.write("alias ruta='/data/data/com.termux/files/home/storage/downloads'")
+ fd.write("alias ruta='echo /data/data/com.termux/files/home/storage/downloads'")
  fd.close() 
 def gengar():
  salto = "\n"
