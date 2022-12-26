@@ -145,7 +145,7 @@ def menu():
 [12]CHARIZAR           [25]HACKER
 [13]AMON.US            {color.rojo}[0]SALIR{color.fin}
 """)
-    eleccion =input(f"{color.cyan}ELIJE UN NUMERO >>{color.fin} ")
+    eleccion =input(f"{color.cyan}ELIGE UN NUMERO >>{color.fin} ")
     if eleccion == "1" :
         banner()
         lobo()
@@ -994,7 +994,7 @@ def ps1():
  var3=7
  while var3 != 1 and var3 !=0:
   try:
-   var3=int(input(f"{color.cyan}ELIJE UN NUMERO >> "))
+   var3=int(input(f"{color.cyan}ELIGE UN NUMERO >> "))
   except:
    print(f"{color.rojo}INTRODUCE UN NUMERO VALIDO")
  if var3 == 1:
@@ -1014,7 +1014,7 @@ def ps1():
   var3 =99
   while var3 not in (1,2,3,4,5,6,7,8,9,10,11,12,13):
    try:
-    var3=int(input(f"{color.cyan}ELIJE EL COLOR QUE QUIERES >> "))
+    var3=int(input(f"{color.cyan}ELIGE EL COLOR QUE QUIERES >> "))
    except:
     print(f"{color.rojo}INTRODUCE UN NUMERO VALIDO")
   if var3 == 1:
